@@ -1,21 +1,21 @@
- BiblioZen VR 📚
+# BiblioZen VR 📚
 
- ## 1. Problématique
-"Comment transformer l'accès à la culture numérique en une expérience sensorielle et calme, loin des distractions des interfaces web classiques ?"
+## 1. Problématique
+**"Comment transformer l'accès à la culture numérique en une expérience sensorielle et calme, loin des distractions des interfaces web classiques ?"**
 
-La lecture numérique actuelle est souvent perturbée par des notifications et une fatigue visuelle accrue. BiblioZen VR cherche à recréer un espace de concentration absolue.
+La lecture numérique actuelle sur écrans traditionnels est souvent perturbée par des notifications incessantes et génère une fatigue visuelle rapide. **BiblioZen VR** répond à ce problème en créant un espace de concentration absolue où l'utilisateur est isolé des sollicitations extérieures.
 
- ## 2. Solution VR proposée
-BiblioZen VR propose un **sanctuaire de lecture immersif**. L'utilisateur est transporté dans un hall majestueux conçu pour apaiser l'esprit. Dans cet environnement, l'utilisateur peut interagir physiquement avec un ouvrage, retrouvant ainsi le plaisir gestuel de la lecture traditionnelle dans un cadre numérique haut de gamme et sans distraction.
+## 2. Solution VR proposée
+La solution consiste en un **sanctuaire de lecture immersif**. L'utilisateur est projeté dans un hall majestueux conçu pour apaiser l'esprit. Dans cet environnement, l'utilisateur n'est plus un simple spectateur passif, mais un acteur qui peut interagir physiquement avec un ouvrage. Cette approche permet de retrouver le plaisir gestuel de la lecture traditionnelle (saisie du livre, feuilletage des pages) dans un cadre numérique haut de gamme et sans distraction.
 
 ## 3. Choix techniques
-Pour garantir une expérience fluide et confortable, les choix suivants ont été faits :
-* **Navigation par Téléportation :** Ce pattern d'interaction a été choisi pour éliminer tout risque de "motion sickness" (cinétose) et permettre un déplacement précis vers les zones de repos.
-* **Manipulation d'objets (6DOF) :** Utilisation des contrôleurs pour saisir le livre et interagir avec les pages, renforçant le sentiment de présence.
-* **Interface Flottante :** Utilisation d'un menu intuitif à l'arrivée pour guider l'utilisateur sans briser l'immersion.
-* **Ambiance sonore :** Intégration d'un environnement sonore spatialisé pour isoler l'utilisateur du monde réel.
+Pour garantir une expérience cohérente et répondre aux règles de confort VR (Motion Sickness), les choix suivants ont été implémentés :
+* **Navigation par Téléportation :** Ce pattern d'interaction a été privilégié pour éliminer tout risque de nausée et permettre un déplacement fluide et sécurisé dans le hall majestueux.
+* **Manipulation d'objets (6DOF) :** Utilisation de la fonction "Grab" via les contrôleurs pour saisir le livre et interagir avec les pages, renforçant le sentiment de présence et d'immersion.
+* **Interface Flottante (UI) :** Un menu intuitif est présenté à l'arrivée pour guider l'utilisateur sans briser la cohérence visuelle de l'environnement virtuel.
+* **Ambiance Sonore Spatiale :** Intégration d'un environnement sonore feutré (bruit de papier, silence de bibliothèque) pour renforcer l'isolation sensorielle.
 
 ## 4. Limites du projet
-* **Validation Matérielle :** Suite à des contraintes de production, l'expérience n'a pas pu être testée sur un casque physique ; elle repose sur des simulations de conception.
-* **Périmètre Fonctionnel :** À notre niveau actuel, le système de sélection par catalogue n'est pas activé. Le projet se concentre sur une **phase de test** avec un livre unique.
-* **Interaction Simplifiée :** Sous recommandation pédagogique, l'interaction est focalisée sur l'action de tourner les pages pour valider l'ergonomie avant tout déploiement massif.
+* **Contraintes Matérielles :** Suite à des contraintes de production logistique, l'expérience n'a pas pu être testée sur un casque physique. Le projet repose sur des simulations de conception rigoureuses.
+* **Périmètre Fonctionnel :** À notre niveau actuel de développement, le système de filtrage par catalogue complet (catégories de livres) n'est pas activé dans cette version.
+* **Phase de Test Simplifiée :** Suite aux recommandations pédagogiques de l'enseignant, nous avons focalisé le développement sur un livre unique. L'objectif est de valider l'ergonomie de l'action de tourner les pages avant toute extension future du catalogue.
