@@ -18,4 +18,8 @@ Pour garantir une expérience cohérente et répondre aux règles de confort VR 
 ## 4. Limites du projet
 * **Contraintes Matérielles :** Suite à des contraintes de production logistique, l'expérience n'a pas pu être testée sur un casque physique. Le projet repose sur des simulations de conception rigoureuses.
 * **Périmètre Fonctionnel :** À notre niveau actuel de développement, le système de filtrage par catalogue complet (catégories de livres) n'est pas activé dans cette version.
+
+## 5. Accès au Prototype VR
+Vous pouvez tester l'expérience interactive directement via le lien suivant :
+👉 [Accéder au prototype BiblioZen VR](https://edu.delightex.com/Studio/Space/tTfqFQiwhDtvqUCM)
 * **Phase de Test Simplifiée :** Suite aux recommandations pédagogiques de l'enseignant, nous avons focalisé le développement sur un livre unique. L'objectif est de valider l'ergonomie de l'action de tourner les pages avant toute extension future du catalogue.
